@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Script.js" defer></script>
+</head>
+<body>
+<h1> Pandekage opskrift</h1>
+
+
+<form onsubmit="return false" oninput="output.value = antalPersoner.valueAsNumber">
+    Hvor mange personer vil du lave pandekager til?<br/> <br/>
+    <input id="antalPersoner" type="range" min="2" max="20" value="2"><br/> Opskriften er til <output for="antalPersoner" name="output">2 </output> Personer</form>
+
+<br><br>
+
+<h3>Opskriften: </h3>
+<form>
+    <label for="AntalEgg">Antal æg</label><br>
+    <input type="text" id="AntalEgg"  value="2"><br><br>
+
+    <label for="GramMel">Gram HvedeMel</label><br>
+    <input type="text" id="GramMel"  value="75"><br><br>
+
+    <label for="Gramsmor">Gram Smør</label><br>
+    <input type="text" id="Gramsmor"  value="12.5"><br><br>
+
+    <label for="DlMaelk">dl mælk</label><br>
+    <input type="text" id="DlMaelk"  value="1.5"><br><br>
+
+    <label for="Salt">knsp. Salt</label><br>
+    <input type="text" id="Salt"  value="0.5"><br><br>
+
+    <label for="Sukker">spsk. Sukker</label><br>
+    <input type="text" id="Sukker"  value="0.5"><br><br>
+
+    <label for="Vsukker">tsk. Vaniljesukker</label><br>
+    <input type="text" id="Vsukker"  value="0.5"><br><br>
+
+</form>
+
+<h3>Fremgangsmåden: </h3>
+
+
+<p>
+    Æg og mel piskes sammen. Heri piskes det varme smeltede smør, spæd med mælk og smages til med salt, sukker og vanille. <br>
+
+    Bag pandekagerne lysebrune i smør på panden. Der bliver 8-12 pandekager alt efter pandens størrelse. 12 stk. med pande på 19 cm. i diameter. <br>
+
+    Server pandekagerne med, sukker og syltetøj, blød vanilleis eller flødeskum.<br>
+
+</p>
+</body>
+</html>
